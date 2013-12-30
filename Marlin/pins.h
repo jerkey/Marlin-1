@@ -506,7 +506,7 @@
   #endif
 
   #if MOTHERBOARD == 33 || MOTHERBOARD == 67
-    #define HEATER_1_PIN       -1
+    #define HEATER_1_PIN      40
   #else
     #define HEATER_1_PIN       9    // EXTRUDER 2 (FAN On Sprinter)
   #endif
@@ -520,7 +520,7 @@
   #endif
 
   #define TEMP_0_PIN         13   // ANALOG NUMBERING
-  #define TEMP_1_PIN         15   // ANALOG NUMBERING
+  #define TEMP_1_PIN         13   // ANALOG NUMBERING
   #define TEMP_2_PIN         -1   // ANALOG NUMBERING
 
   #if MOTHERBOARD == 35
